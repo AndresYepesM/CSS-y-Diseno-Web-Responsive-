@@ -1,3 +1,5 @@
+/* Estilos, Colores y Sombras */
+
 *{
 	font-family: 'Dancing Script', cursive;
 }
@@ -30,7 +32,7 @@ body{
 	background-color: #02010a;
 }
 
-
+/* Animaciones */
 #PaisajeAni img{
 	transition-duration: 1s, 2s;
 }
@@ -51,4 +53,19 @@ body{
 	transform: translateX(20px);
 	border: 2px solid;
 	box-shadow: 5px 10px #82c3a6 ;
+}
+
+/* Filtros de las imagenes */
+
+.blur{
+	filter: blur(10px);
+}
+
+.grey-scale{
+
+	filter: grayscale(100%);
+}
+
+.sepia{
+	filter: sepia(90%);
 }
