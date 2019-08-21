@@ -29,3 +29,26 @@
 body{
 	background-color: #02010a;
 }
+
+
+#PaisajeAni img{
+	transition-duration: 1s, 2s;
+}
+
+#PaisajeAni img:hover{
+
+	transform: rotate(10deg);
+	border: 2px solid;
+	box-shadow: 5px 10px #82c3a6 ;
+}
+
+#RetratoAni img{
+	transition-duration: 1s, 2s;
+}
+
+#RetratoAni img:hover{
+	transform: translateY(5px);
+	transform: translateX(20px);
+	border: 2px solid;
+	box-shadow: 5px 10px #82c3a6 ;
+}
